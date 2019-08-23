@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://w3schools.com/w3css/4/w3.css">
+	<style>
+		
+		body{
+			background-image: url("new/index6.jpg");
+		}
+		footer {
+   			/*position:fixed;*/
+  			 left: 0;
+   			bottom: 0;
+   			width: 100%;
+   			height:5%;
+  			margin-top: 300px;
+   			background-color:black;
+   			color:white;
+   			text-align: center;
+	
+ 
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ .socialbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .sociallink:hover .socialbtn {
+  background-color: red;
+}
+
+li.sociallink {
+  display: inline-block;
+}
+
+.sociallink-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.sociallink-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.sociallink-content a:hover {background-color: #f1f1f1;}
+
+.sociallink:hover .sociallink-content {
+  display: block;
+}
+.cl{
+	background-color: black;
+}
+		.column{
+			float: left;
+			width: 50%;
+		}
+		.row:after{
+			content: "";
+			display:table;
+			clear: both;
+		}
+		.col-sm-3{
+			float: left;
+			width: 25%;
+		}
+		.col{
+			float: left;
+			width: 25%;
+		}
+		.col1{
+			float: left;
+			width: 33.33%;
+		}
+/*		.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}*/
+/** {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  /*color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}	*/
+
+
+</style>
+</head>
+<body>
+	<div class="cl">
+<div class="row">
+	<div class="column">
+		<img src="new/logo2.png" href="index.html" width="50" height="50" alt="img" class="img">
+	</div>
+	<div class="column">
+		<nav>
+  			<center><li><a href="home.html">HOME</a></li>
+  			<li><a href="contact.html">CONTACT</a></li>
+  			<li><a href="gallery.html">GALLERY</a></li></center>
+		</nav>
+	</div>
+</div>
+</div>
+<h1 align="center">login forms</h1><br>
+<center>
+	<img src="new\image3.png" height="50px" width="50px"><input type="text" name="username" placeholder="enter username"><br><br><br>
+	<img src="new\pwd.png" height="50px" width="50px"><input type="password" name="pw" placeholder="enter password"><br><br><br>
+	<img src="new\phone.png" height="50px" width="50px"><input type="text" name="phone" placeholder="enter phone number"><br><br><br>
+	MALE:<input type="radio" name="male">FEMALE:<input type="radio" name="female"><br><br>
+	<img src="new\mail.png" height="50px" width="50px"><input type="text" name="email" placeholder="enter email"><br><br><br>
+    <input type="submit" value="submit">
+</center><br><br><br>
+<!-- <footer class="fixed">
+	<div class="row">
+		<div class="col-sm-3">
+			<p><center>MAIN MENU</center></p>
+			<a class="nav-item nav-link" href="home.html"></a>
+			<a class="nav-item nav-link" href="gallery.html"></a>
+			<a class="nav-item nav-link" href="contact.html"></a>
+		</div>
+		<p align="center">SOCIAL LINK</p>
+		<p style="text-align: center;"><img src="new\fb.png" height="50px" width="40px"><a href="http://www.facebook.com/">FACEBOOK</a><br>
+		<img src="new\insta.jpg" height="50px" width="40px"><a href="http://www.instagram.com/">INSTAGRAM</a><br>
+		<img src="new\you.png" height="80px" width="60px"><a href="http://www.youtube.com/">YOUTUBE</a></p>
+	</div>
+	<div class="col-sm-3">
+		<p style="text-align:right;"><img src="new\sub.png" height="60px" width="80px"><a href="http://www.office.com/">SUBSCRIBE</a><br><br>Mail:<input type="text" name="mail" placeholder="enter mailid"><br>
+			<center><input type="submit" value="submit"></center></p>
+		</div>
+	</div>
+</footer>  -->
+					<!-- <center><input type="submit" value="submit"></center></p>
+				</div>
+			</div>
+		</footer> -->
+		<footer class="fixed">
+	<div class="row">
+		<div class="column1">
+			<img src="new/logo2.png" href="index.html" width="50" height="50" alt="img" class="img">
+			<div class="desc">Mstar</div>
+		</div>
+		<div class="column1">
+			<h3>Main links</h3>
+			
+      <a href="home.html">HOME</a> |
+  			<a href="contact.html">CONTACT</a> |
+  			<a href="gallery.html">GALLERY</a> 
+		</div>
+		<div class="column1">
+			 
+			<li class="sociallink"> 
+    <a href="javascript:void(0)" class="socialbtn"><b>Social Link</b>  </a> 
+    <div class="sociallink-content">
+      <img src="new/fb.png" height="50px" width="40px">
+      <a href="https://www.facebook.com/everstylishcom/">facebook</a>
+      <img src="new/insta.jpg" height="50px" width="40px">
+      <a href="https://www.instagram.com/everstylishcom/?h1=en">instagram</a>
+      <img src="new/you.png" height="50px" width="40px">
+      <a href="https://www.youtube.com/watch?v=nkxb6UoH_1Y">youtube</a>
+    </div>
+  <!-- </li> -->
+		</div>
+		<div class="column1">
+			<h3>Subscribe</h3>
+			<button type="button" class="submit">Subscribe</button>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
